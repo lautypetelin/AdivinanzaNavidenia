@@ -1,7 +1,7 @@
-package igu;
+package com.lautaropetelin.desafionavidenio.igu;
 
 import javax.swing.JOptionPane;
-import logica.Controladora;
+import com.lautaropetelin.desafionavidenio.logica.Controladora;
 
 public class Principal extends javax.swing.JFrame {
 
@@ -124,7 +124,7 @@ public class Principal extends javax.swing.JFrame {
         jlElegirPersonaje.setText("Elija su personaje:");
 
         jbPapaNoel.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
-        jbPapaNoel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/igu/images/papaNoel.png"))); // NOI18N
+        jbPapaNoel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/lautaropetelin/desafionavidenio/igu/images/papaNoel.png"))); // NOI18N
         jbPapaNoel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbPapaNoel.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbPapaNoel.addActionListener(new java.awt.event.ActionListener() {
@@ -134,7 +134,7 @@ public class Principal extends javax.swing.JFrame {
         });
 
         jbEstrella.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
-        jbEstrella.setIcon(new javax.swing.ImageIcon(getClass().getResource("/igu/images/estrella.png"))); // NOI18N
+        jbEstrella.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/lautaropetelin/desafionavidenio/igu/images/estrella.png"))); // NOI18N
         jbEstrella.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbEstrella.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbEstrella.addActionListener(new java.awt.event.ActionListener() {
@@ -144,7 +144,7 @@ public class Principal extends javax.swing.JFrame {
         });
 
         jbArbolito.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
-        jbArbolito.setIcon(new javax.swing.ImageIcon(getClass().getResource("/igu/images/arbolNavidad.png"))); // NOI18N
+        jbArbolito.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/lautaropetelin/desafionavidenio/igu/images/arbolNavidad.png"))); // NOI18N
         jbArbolito.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbArbolito.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbArbolito.addActionListener(new java.awt.event.ActionListener() {
@@ -154,7 +154,7 @@ public class Principal extends javax.swing.JFrame {
         });
 
         jbRegalo.setFont(new java.awt.Font("Segoe UI Emoji", 0, 24)); // NOI18N
-        jbRegalo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/igu/images/regalo.png"))); // NOI18N
+        jbRegalo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/lautaropetelin/desafionavidenio/igu/images/regalo.png"))); // NOI18N
         jbRegalo.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbRegalo.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jbRegalo.addActionListener(new java.awt.event.ActionListener() {

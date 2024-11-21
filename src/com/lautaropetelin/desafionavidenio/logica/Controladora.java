@@ -1,4 +1,4 @@
-package logica;
+package com.lautaropetelin.desafionavidenio.logica;
 
 import java.util.Random;
 
